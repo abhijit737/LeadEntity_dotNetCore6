@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/dotnetApp001/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsEntityConnectionString_1418853003",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/asureentitydbdbserver/databases/AsureEntityDB",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:EntityConnectionString",
+      "dynamicId": null
+    }
+  }
+}
